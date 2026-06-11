@@ -203,7 +203,7 @@ class MainActivity : ComponentActivity() {
         }
 
         addressBar = EditText(this).apply {
-            singleLine = true
+            setSingleLine(true)
             hint = "Search or enter address"
             textSize = 15f
             inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_URI
@@ -618,7 +618,7 @@ class MainActivity : ComponentActivity() {
         val trustedOriginInput = EditText(this).apply {
             hint = "Trusted Origin, e.g. http://192.168.1.50:3000"
             inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_URI
-            singleLine = true
+            setSingleLine(true)
             setText(developerPreferences.trustedOrigin)
         }
         val mixedLabel = TextView(this).apply {
