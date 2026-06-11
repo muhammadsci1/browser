@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dev Debug Browser</string>
+    <string name="keep_alive_channel_name">Browser session</string>
+    <string name="keep_alive_channel_description">Keeps professional WebView testing sessions alive in the background.</string>
+    <string name="keep_alive_notification_title">Dev Debug Browser session active</string>
+    <string name="keep_alive_notification_text">Foreground service is protecting your testing tabs from background termination.</string>
+    <string name="stop">Stop</string>
+</resources>
